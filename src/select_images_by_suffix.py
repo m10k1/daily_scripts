@@ -39,8 +39,8 @@ def copy_images_with_suffix_and_length(source_directory, target_directory, suffi
 
 
 def main():
-    src_dir = r"G:\JR西日本\小浜線\正規化_000037_2回目_東舞鶴_敦賀"
-    target_dir = r"G:\JR西日本\小浜線\test"
+    src_dir = r"/path/to/src"
+    target_dir = r"path/to/output"
     suffixes = ["01", "05"]
 
     copy_images_with_suffix_and_length(src_dir, target_dir, suffixes)
